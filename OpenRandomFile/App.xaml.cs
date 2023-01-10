@@ -16,7 +16,8 @@ namespace OpenRandomFile
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterForNavigation<DAndDView>();
+            containerRegistry.RegisterForNavigation<ChoosingView>();
         }
     }
 }

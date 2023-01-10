@@ -20,6 +20,6 @@
             <StatusBarItem Content="起動"/>
         </StatusBar>
 
-        <Grid></Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion"/>
     </DockPanel>
 </Window>
