@@ -1,8 +1,9 @@
 ﻿using Prism.Mvvm;
+using System.ComponentModel;
 
 namespace OpenRandomFile.ViewModels
 {
-    public class MainWindowViewModel : BindableBase
+    public class MainWindowViewModel : BindableBase, INotifyPropertyChanged
     {
         private string _title = "Prism Application";
         public string Title
